@@ -177,8 +177,7 @@ namespace BunnyUp.Screens
         }
 
         /// <summary>
-        /// 
-        /// 
+        /// Restarts game if bunny falls below screen Bounds
         /// </summary>
         public void IsRoundOver()
         {

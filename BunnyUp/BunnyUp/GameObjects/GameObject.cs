@@ -26,7 +26,7 @@ namespace BunnyUp.GameObjects
         {
             get
             {
-                return new Vector2(Position.X + ImageToBeDrawn.Width / 2, Position.Y + ImageToBeDrawn.Height / 2);
+                return new Vector2((int)Position.X + ImageToBeDrawn.Width / 2 , (int)Position.Y + ImageToBeDrawn.Height / 2);
             }
         }
 

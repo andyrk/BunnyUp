@@ -80,7 +80,6 @@ namespace BunnyUp.GameObjects
         /// <param name="spritebatch"></param>
         public override void Draw(SpriteBatch spritebatch)
         {
-            //base.Draw(spritebatch);
             spritebatch.Draw(ImageToBeDrawn, Bounds, null, Color.White, 0f, Vector2.Zero, spriteEffects, 0f);
         }
 

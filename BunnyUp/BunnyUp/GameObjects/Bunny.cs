@@ -28,7 +28,6 @@ namespace BunnyUp.GameObjects
         private float fallingSpeed;
         private float jumpingDirection;
         private float deAccel;
-        private float rotation;
 
         #endregion
 
@@ -205,8 +204,7 @@ namespace BunnyUp.GameObjects
         /// <param name="spritebatch"></param>
         public override void Draw(SpriteBatch spritebatch)
         {
-            //base.Draw(spritebatch);
-            spritebatch.Draw(ImageToBeDrawn, Bounds, null, Color.White, )
+            spritebatch.Draw(ImageToBeDrawn, Bounds, Color.White);   
         }
         #endregion 
     }
